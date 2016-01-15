@@ -1,2 +1,3 @@
 = Knowledge Depot 664 =
   * [[Project Ideas]] - title says it all
+  * [[Stories and Shit]]
