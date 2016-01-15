@@ -1,12 +1,15 @@
 = Vim Stuff =
 
-Currently running vimrc: [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc | .vimrc]]
+Currently running [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc|.vimrc]]
 
-== ## Movement ==
+= Contents =
+  - [[#Vim Stuff|Vim Stuff]]
+    - [[#Vim Stuff### Misc|## Misc]]
+    - [[#Vim Stuff### Jumps|## Jumps]]
+    - [[#Vim Stuff### Multicursor|## Multicursor]]
+    - [[#Vim Stuff### Folds|## Folds]]
+    - [[#Vim Stuff### Movement|## Movement]]
 
-|   | k |   |
-| h |   | l |
-|   | j |   |
 
 == ## Misc ==
 
@@ -27,8 +30,8 @@ Currently running vimrc: [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc | 
 
 | key combo              | action   |
 |------------------------|----------|
-| `<C-O>`                | Next     |
-| `<C-I>` (or `<C-Tab>`) | Previous |
+| `<C-o>`                | Next     |
+| `<C-i>` (or `<C-Tab>`) | Previous |
 |                        |          |
 
 == ## Multicursor ==
@@ -46,3 +49,10 @@ Currently running vimrc: [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc | 
 |-----------|----------------|
 | `zR`      | Open all folds |
 |           |                |
+
+== ## Movement ==
+Because these things are hard :/
+
+|   | k |   |
+| h |   | l |
+|   | j |   |
