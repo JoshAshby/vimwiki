@@ -1,3 +1,6 @@
 = Knowledge Depot 664 =
+  * [[Vim Stuff]] - Common tasks that I always forget how to do
+
+= Misc Depot 667 =
   * [[Project Ideas]] - title says it all
   * [[Stories and Shit]]

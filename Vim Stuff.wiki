@@ -1,0 +1,48 @@
+= Vim Stuff =
+
+Currently running vimrc: [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc | .vimrc]]
+
+== ## Movement ==
+
+|   | k |   |
+| h |   | l |
+|   | j |   |
+
+== ## Misc ==
+
+| command                  | desc                                                         |
+|--------------------------|--------------------------------------------------------------|
+| `:%!python -m json.tool` | Pretty-Print the current buffer, assuming its JSON           |
+| `<leader>cb`             | Left align comments, rather than `<leader>c<space> to toggle |
+| `<range>S*`              | Wrap selection                                               |
+| `<range>gS*`             | Wrap and indent selection                                    |
+| `<range>gq`              | Reformat paragraph                                           |
+| `:g/^/m<start>`          | Reverses the line, starting from `<start>`                   |
+| `cw`                     | Change word                                                  |
+| `<range>*`               | Search forward for whats in `<range>`                        |
+| `<range>#`               | Search backward for whats in `<range>`                       |
+|                          |                                                              |
+
+== ## Jumps ==
+
+| key combo              | action   |
+|------------------------|----------|
+| `<C-O>`                | Next     |
+| `<C-I>` (or `<C-Tab>`) | Previous |
+|                        |          |
+
+== ## Multicursor ==
+
+| key combo | action                                            |
+|-----------|---------------------------------------------------|
+| `<C-n>`   | Start multicursor and run through next selections |
+| `<C-x>`   | Skip current selection                            |
+| `<C-p>`   | Previous selection                                |
+|           |                                                   |
+
+== ## Folds ==
+
+| key combo | action         |
+|-----------|----------------|
+| `zR`      | Open all folds |
+|           |                |
