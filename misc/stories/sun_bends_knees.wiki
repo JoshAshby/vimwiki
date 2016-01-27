@@ -1,7 +1,15 @@
-= The Sun Bends its Knees =
+%template skinny
+%title The Sun Bends its Knees
 
-== 1 ==
+== The Sun Bends its Knees ==
+----
+<div class="clearfix">
+  <div class="float-right">
+=== 1 ===
+  </div>
+</div>
 
+<div class="indent">
 The car hummed along softly as it caressed the hard black road top, as it guided
 itself down the lane. Two cones of light beaconed through the air from the
 vehicles headlights, illuminating a constantly changing view of falling snow;
@@ -65,13 +73,28 @@ communication channels, they instructed their phone to answer the call.
 Communicating with the car, the phone eventually worked out how to connect to
 the internal audio system - something the phone always seemed to forget how to
 do - and routed the phone call through.
+</div>
 
-  "Miss? This is the Ship:MACE __I've Read the Instructions, Now What?__"
-  "Hello __Read the Instructions__, is there something I can help you with?"
-  "It seems that you are needed in the Sol system, ma'am, seems there is some sort of 'situation' that I've been instructed to ferry you to. I'm prepared to translate you aboard and depart immedietly."
+<div class="dialogue">
+  "Miss? This is the Ship:MACE _I've Read the Instructions, Now What?_"
+
+  "Hello _Read the Instructions_, is there something I can help you with?"
+
+  "It seems that you are needed in the Sol system, ma'am; seems there is some
+  sort of 'situation' that I've been instructed to ferry you to
+  Fast-As-Possible. I'm prepared to translate you aboard and depart
+  immedietly."
+
   "Hang on, you said there was a 'situation'? What does that mean?"
-  "Not a clue if I'm being honest, ma'am. The station:MACE __Distantly Watching You__ beamed me word to get you there ASAP just fractions ago. Urgent priority but with no additional information. Are you prepared to leave?"
 
-* * *
+  "Not a clue if I'm being honest, ma'am. The station:MACE _Distantly Watching You_
+  beamed me word to get you there ASAP just fractions ago. Urgent priority
+  but with no additional information. Are you prepared to leave?"
+</div>
 
+----
 
+<div class="indent">
+Looking ahead through the flyers bubbled cockpit, Tribby saw only the black
+inky sky as he raced over the cloud obscured landscape below.
+</div>

@@ -4,14 +4,14 @@ Currently running [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc|.vimrc]]
 
 = Contents =
   - [[#Vim Stuff|Vim Stuff]]
-    - [[#Vim Stuff### Misc|## Misc]]
-    - [[#Vim Stuff### Jumps|## Jumps]]
-    - [[#Vim Stuff### Multicursor|## Multicursor]]
-    - [[#Vim Stuff### Folds|## Folds]]
-    - [[#Vim Stuff### Movement|## Movement]]
+    - [[#Vim Stuff#Misc|Misc]]
+    - [[#Vim Stuff#Jumps|Jumps]]
+    - [[#Vim Stuff#Multicursor|Multicursor]]
+    - [[#Vim Stuff#Folds|Folds]]
+    - [[#Vim Stuff#Movement|Movement]]
 
 
-== ## Misc ==
+== Misc ==
 
 | command                  | desc                                                         |
 |--------------------------|--------------------------------------------------------------|
@@ -24,33 +24,29 @@ Currently running [[https://github.com/JoshAshby/dots/blob/gloo/.vimrc|.vimrc]]
 | `cw`                     | Change word                                                  |
 | `<range>*`               | Search forward for whats in `<range>`                        |
 | `<range>#`               | Search backward for whats in `<range>`                       |
-|                          |                                                              |
 
-== ## Jumps ==
+== Jumps ==
 
 | key combo              | action   |
 |------------------------|----------|
 | `<C-o>`                | Next     |
 | `<C-i>` (or `<C-Tab>`) | Previous |
-|                        |          |
 
-== ## Multicursor ==
+== Multicursor ==
 
 | key combo | action                                            |
 |-----------|---------------------------------------------------|
 | `<C-n>`   | Start multicursor and run through next selections |
 | `<C-x>`   | Skip current selection                            |
 | `<C-p>`   | Previous selection                                |
-|           |                                                   |
 
-== ## Folds ==
+== Folds ==
 
 | key combo | action         |
 |-----------|----------------|
 | `zR`      | Open all folds |
-|           |                |
 
-== ## Movement ==
+== Movement ==
 Because these things are hard :/
 
 |   | k |   |

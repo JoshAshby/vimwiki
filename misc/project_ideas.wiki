@@ -1,0 +1,2 @@
+= Project Ideas =
+  * [[ideas/git_blog|GitBlog]] - tumblr blog interface, using git as a long term storage and backup
