@@ -66,4 +66,12 @@ Communicating with the car, the phone eventually worked out how to connect to
 the internal audio system - something the phone always seemed to forget how to
 do - and routed the phone call through.
 
-  ""
+  "Miss? This is the Ship:MACE __I've Read the Instructions, Now What?__"
+  "Hello __Read the Instructions__, is there something I can help you with?"
+  "It seems that you are needed in the Sol system, ma'am, seems there is some sort of 'situation' that I've been instructed to ferry you to. I'm prepared to translate you aboard and depart immedietly."
+  "Hang on, you said there was a 'situation'? What does that mean?"
+  "Not a clue if I'm being honest, ma'am. The station:MACE __Distantly Watching You__ beamed me word to get you there ASAP just fractions ago. Urgent priority but with no additional information. Are you prepared to leave?"
+
+* * *
+
+
