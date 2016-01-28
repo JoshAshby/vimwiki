@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.0.3/milligram.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/atelier-dune-dark.min.css">
 
     <link rel="Stylesheet" type="text/css" href="../../style.css"/>
 
@@ -52,11 +53,69 @@ maybe even some short prompts, I bet I could get a pretty good historical view
 into how I'm doing each day.
 </p>
 
+<p>
+I'd love to be able to define these as something like a YAML file:
+</p>
+
+<pre class="lang-yaml">
+- prompt: How happy are you today?
+  type: scale
+  options:
+    - :(
+    - :|
+    - :)
+
+- prompt: Was today a good day?
+  type: scale
+  options:
+    - yes
+    - no
+
+- prompt: What was bad today?
+  type: multiple_choice
+  options:
+    - Stress
+    - Workload
+    - Physical Pains
+</pre>
+
+<p>
+And so forth. I like the idea of being able to just add or update or remove
+questions really quickly, until I've narrowed it down to something that I feel
+really maps out my day.
+</p>
+
+<p>
+I'd also love to have this setup as like a three or four per day sort of
+system, with it sending me a notification with a link to the current
+questionnaire when its time. Maybe even add a "weight" option that decreases as
+time passes since the questionnaire was sent out.
+</p>
+
+<pre class="lang-json">
+{
+  "sample": 1,
+  "wat": "test",
+  "one": true
+}
+</pre>
+
           </div>
         </div>
       </section>
 
   </body>
 
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="../../highlight.pack.js"></script>
+
+  <script>
+    window.onload = function() {
+      var aCodes = document.getElementsByTagName('pre');
+      console.log(aCodes);
+      for (var i=0; i < aCodes.length; i++) {
+        hljs.highlightBlock(aCodes[i]);
+      }
+    };
+  </script>
 </html>
