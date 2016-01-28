@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.0.3/milligram.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/atelier-dune-dark.min.css">
 
     <link rel="Stylesheet" type="text/css" href="%root_path%style.css"/>
 
@@ -34,5 +35,15 @@
 
   </body>
 
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script src="%root_path%highlight.pack.js"></script>
+
+  <script>
+    window.onload = function() {
+      var aCodes = document.getElementsByTagName('pre');
+      for (var i=0; i < aCodes.length; i++) {
+        hljs.highlightBlock(aCodes[i]);
+      }
+    };
+  </script>
 </html>

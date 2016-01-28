@@ -1,2 +1,3 @@
 = Project Idea Depot 665 =
   * [[ideas/git_blog|GitBlog]] - tumblr blog interface, using git as a long term storage and backup
+  * [[ideas/wellness|Mental tracking]] - tracking mental wellness using a software
