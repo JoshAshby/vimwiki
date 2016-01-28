@@ -92,14 +92,6 @@ questionnaire when its time. Maybe even add a "weight" option that decreases as
 time passes since the questionnaire was sent out.
 </p>
 
-<pre class="lang-json">
-{
-  "sample": 1,
-  "wat": "test",
-  "one": true
-}
-</pre>
-
           </div>
         </div>
       </section>
@@ -112,7 +104,6 @@ time passes since the questionnaire was sent out.
   <script>
     window.onload = function() {
       var aCodes = document.getElementsByTagName('pre');
-      console.log(aCodes);
       for (var i=0; i < aCodes.length; i++) {
         hljs.highlightBlock(aCodes[i]);
       }
