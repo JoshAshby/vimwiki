@@ -48,11 +48,3 @@ I'd also love to have this setup as like a three or four per day sort of
 system, with it sending me a notification with a link to the current
 questionnaire when its time. Maybe even add a "weight" option that decreases as
 time passes since the questionnaire was sent out.
-
-{{{class="lang-json"
-{
-  "sample": 1,
-  "wat": "test",
-  "one": true
-}
-}}}
