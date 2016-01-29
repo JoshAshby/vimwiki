@@ -166,8 +166,8 @@ slide open, revealing a tall and skinny humanoid figure.
 </div>
 
 <div class="dialogue">
-  "Ello There! I'm Birdy, Meppet for the ship:MACE _I've Read the Instructions,
-  Now What?_. I had to translate you to one of my shuttles to prevent your
+  "Ello There! I'm Birdy, Meppet for the ship:MACE _I've Read the Instructions, Now What?_.
+  I had to translate you to one of my shuttles to prevent your
   injury while your craft was disassembling itself."
 </div>
 
