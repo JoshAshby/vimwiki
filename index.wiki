@@ -1,2 +1,4 @@
 = Knowledge Depot 664 =
   * [[vim_stuff|Vim Stuff]] - Common tasks that I always forget how to do
+
+Imagemagick for decreasing the size of photos in blog: `convert -interlace Plane -sampling-factor 4:2:0 -quality 80% in.jpg out.jpg`
